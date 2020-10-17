@@ -34,6 +34,12 @@ cara install di anaconda prompt/cmd jika sudah di set path:
 pip install mysqlclient
 
 
+# NOTE
+- Untuk menjalankan soal no 4B diperlukan pembuatan database dan tabel terlebih dahulu dengan nama database webmusic dan tabel genre
+- Untuk bagian app.py no 4B kode dibawah ini diperlukan penggantian password sql, password einstein bisa diganti dengan password pada mysql yang anda gunakan
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:einstein@localhost/webmusic'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
 
