@@ -19,14 +19,17 @@ Windows 10
 
 # library package yang digunakan:
 1. Flask
+
 cara install di anaconda prompt/cmd jika sudah di set path:
 pip install Flask
 
 2. Flask-SQL Alchemy
+
 cara install di anaconda prompt/cmd jika sudah di set path:
 pip install Flask-SQLAlchemy
 
 3.mysql client
+
 cara install di anaconda prompt/cmd jika sudah di set path:
 pip install mysqlclient
 
