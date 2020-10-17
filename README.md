@@ -39,7 +39,7 @@ pip install mysqlclient
 - Untuk bagian app.py no 4B kode dibawah ini diperlukan penggantian password sql, password einstein bisa diganti dengan password pada mysql yang anda gunakan
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:einstein@localhost/webmusic'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
 
 
 
